@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mobileappdevelop.testmessmanagement.MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABC"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:id="@+id/messManagementTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mealBazarButton"
+        android:text="Meal and Bazar"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_above="@+id/monthOverviewButton"
+        android:layout_alignEnd="@+id/monthOverviewButton"
+        android:textSize="25sp"
+        android:layout_alignStart="@+id/monthOverviewButton" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/monthOverviewButton"
+        android:text="Month overview"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginBottom="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+</RelativeLayout>
